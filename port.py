@@ -1,4 +1,4 @@
-#github.com/ranjan1560/Advance_Port_Scanner
+#github.com/ranjan1560/Fast_Port_Scanner
 #Developerd By Ranjan Kumar
 import socket
 import concurrent.futures
