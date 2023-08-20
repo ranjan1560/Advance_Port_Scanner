@@ -1,4 +1,4 @@
-# Fast_Port_Scanner
+# Advance_Port_Scanner
 
 This Project is about port scanning in fastest way with port number and their service . use this to find out of open ports.
 
@@ -20,4 +20,4 @@ In this code, I've added a dictionary named PORT_TO_SERVICE that maps commonly u
 
 Inside the scan_port function, after detecting that a port is open, we use the PORT_TO_SERVICE.get(port, "Unknown") line to retrieve the service name associated with the port from the dictionary. If the port is not found in the dictionary, it defaults to "Unknown".
 
-The output includes the port number and its associated service name, providing more context about the open ports. This can be helpful in identifying the services that are running on those ports.
+The output includes the port number and its associated service name, providing more context about the open ports. This can be helpful in identifying the services that are running on those ports and you can save the result in a file by choice ..
